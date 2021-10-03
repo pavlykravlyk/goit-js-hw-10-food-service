@@ -18,56 +18,56 @@
   justify-content: space-between;
   height: 100%;
   padding-bottom: 8px;
-}
 
-.card__content {
-  display: flex;
-  flex-direction: column;
-  padding: 8px;
-  flex-grow: 1;
-}
+  &__content {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    flex-grow: 1;
+  }
 
-.card__image {
-  height: 300px;
-  object-fit: cover;
-  max-width: 100%;
-}
+  &__image {
+    height: 300px;
+    object-fit: cover;
+    max-width: 100%;
+  }
 
-.card__name {
-  margin-top: 16px;
-  margin-bottom: 0;
-  font-size: 24px;
-  font-weight: 500;
-}
+  &__name {
+    margin-top: 16px;
+    margin-bottom: 0;
+    font-size: 24px;
+    font-weight: 500;
+  }
 
-.card__descr {
-  line-height: 1.5;
-  flex-grow: 1;
-}
+  &__descr {
+    line-height: 1.5;
+    flex-grow: 1;
+  }
 
-.card__price {
-  display: flex;
-  align-items: center;
-  margin-top: 24px;
-  font-size: 20px;
-}
+  &__price {
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+    font-size: 20px;
+  }
 
-.card__price i {
-  margin-right: 8px;
-  font-size: 24px;
-}
+  &__price i {
+    margin-right: 8px;
+    font-size: 24px;
+  }
 
-.card__reviews {
-  display: block;
-  margin-top: 16px;
-}
+  &__reviews {
+    display: block;
+    margin-top: 16px;
+  }
 
-.card__button {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 16px;
-  width: calc(100% - 16px);
+  &__button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+    width: calc(100% - 16px);
+  }
 }
 
 .tag-list {
@@ -76,14 +76,14 @@
   padding: 0;
   margin: 0;
   list-style: none;
-}
 
-.tag-list__item {
-  padding: 4px 8px;
-  margin: 4px;
-  border-radius: 2px;
-  background-color: #3f51b5;
-  color: #fff;
+  &__item {
+    padding: 4px 8px;
+    margin: 4px;
+    border-radius: 2px;
+    background-color: #3f51b5;
+    color: #fff;
+  }
 }
 
 .button {
@@ -102,13 +102,13 @@
   font-weight: 500;
   user-select: none;
   transition: background-color 250ms var(--timing-function);
-}
 
-.button:hover {
-  box-shadow: 0px 2px 1px 1px rgba(0, 0, 0, 0.15);
-  background-color: #1976d2;
-}
+  &:hover {
+    box-shadow: 0px 2px 1px 1px rgba(0, 0, 0, 0.15);
+    background-color: #1976d2;
+  }
 
-.button__icon {
-  margin-right: 8px;
+  &__icon {
+    margin-right: 8px;
+  }
 }
